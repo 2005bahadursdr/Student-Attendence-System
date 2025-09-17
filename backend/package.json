@@ -1,0 +1,26 @@
+{
+  "name": "attendance-system-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Student Attendance System",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js"
+  },
+  "keywords": [
+    "attendance",
+    "student",
+    "management",
+    "api"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "nodemon": "^3.1.10"
+  }
+}
