@@ -23,7 +23,7 @@ app.use('/api/classes', classRoutes);
 app.use('/api/attendance', attendanceRoutes);
 
 // Health check endpoint
-app.get('/api/health', (req, res) => {
+app.get('/', (req, res) => {
   res.json({ status: 'OK', message: 'Server is running' });
 });
 
